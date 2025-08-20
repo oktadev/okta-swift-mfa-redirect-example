@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>scopes</key>
-	<string>YOUR SCOPES</string>
-	<key>redirectUri</key>
-	<string>YOUR REDIRECT URL</string>
-	<key>clientId</key>
-	<string>YOUR CLIENT ID</string>
-	<key>issuer</key>
-	<string>YOUR ISSUER ID/oauth2/default</string>
-	<key>logoutRedirectUri</key>
-	<string>YOUR LOGOUT URL</string>
+    <key>scopes</key>
+    <string>openid profile offline_access</string>
+    <key>redirectUri</key>
+    <string>com.okta.{yourOktaDomain}:/callback</string>
+    <key>clientId</key>
+    <string>{yourClientID}</string>
+    <key>issuer</key>
+    <string>{yourOktaDomain}/oauth2/default</string>
+    <key>logoutRedirectUri</key>
+    <string>com.okta.{yourOktaDomain}:/</string>
 </dict>
 </plist>
